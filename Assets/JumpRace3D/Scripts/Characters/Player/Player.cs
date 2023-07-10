@@ -98,13 +98,13 @@ public class Player : BasicAnimation
     /// </summary>
     private void RotatePlayer()
     {
-#if UNITY_EDITOR
+
         // Rotating the player
         transform.Rotate(new Vector3(0, 
                                      Input.GetAxis("Mouse X"),
                                      0) * Time.deltaTime * RotationSpeed * 10);
 
-#endif
+
         
 #if UNITY_ANDROID && !UNITY_EDITOR
         // Setting the rotation value of the player
