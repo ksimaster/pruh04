@@ -16843,7 +16843,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 56.75
+  m_fontSize: 60
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -17293,7 +17293,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 22.05
+  m_fontSize: 28
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -20316,7 +20316,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 22.05
+  m_fontSize: 28
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -42901,7 +42901,7 @@ PrefabInstance:
     - target: {fileID: 861884978610079828, guid: 9640657236198274796e882072ff69c8,
         type: 3}
       propertyPath: CharacterName
-      value: You
+      value: "\u0412\u042B"
       objectReference: {fileID: 0}
     - target: {fileID: 861884978610079828, guid: 9640657236198274796e882072ff69c8,
         type: 3}
