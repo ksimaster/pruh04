@@ -58,7 +58,7 @@ public class GameData : MonoBehaviour
                         // smooth evenly transition where ever
                         // needed
 
-    private string _playerName = "You"; // Name of the player
+    private string _playerName = "Вы"; // Name of the player
 
     /// <summary>
     /// Returns the name of the player, of type string
