@@ -3,57 +3,42 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ADRewardCount : MonoBehaviour
+public class ADReward : MonoBehaviour
 {
     private string lastIsAdsOpen = null;
 
 
     void Start()
     {
-        
+        CheckPerk("Perk_1");
+        CheckPerk("Perk_2");
+        CheckPerk("Perk_3");
+        CheckPerk("Perk_4");
+        CheckPerk("Perk_5");
+        CheckPerk("Perk_6");
+
     }
 
     void Update()
     {
-        //if (compCanvasResult.enabled) isCanvasResult = 1;
-        //isImageReticle = compImageReticle.enabled ? 1 : 0;
-        /*
-        if (compImageReticle.enabled || compCanvasResult.enabled) 
-        {
-            rewardPanelText.SetActive(false);
-            //Time.timeScale = 1;
-        }
-        else
-        {
-            rewardPanelText.SetActive(true);
-            //Time.timeScale = 0;
-        }
-        
-        if (Input.GetKeyDown(KeyCode.Space) && !compImageReticle.enabled && !compCanvasResult.enabled && !rewardPanel.activeSelf)
-        {
-            
-            if (!compCanvasResult.enabled)
-            {
-                ForReward();
 
-                ShowAdRewardForLife();
-                rewardPanel.SetActive(true);
-                messageText.SetActive(false);
-                Debug.Log("MainBody_HP увеличено на 50 %");
-            }
-           
-            
-            
-        }
-        */
     }
 
-    public void ShowAdRewardForLife()
+    private void CheckPerk(string perk)
+    {
+        if (!PlayerPrefs.HasKey(perk)) PlayerPrefs.SetInt(perk, 0);
+    }
+
+    public void OpenPerk(string perk)
+    {
+        PlayerPrefs.SetInt(perk, 1);
+    }
+
+    public void ShowAdRewardForPerk()
     {
 #if UNITY_WEBGL && !UNITY_EDITOR
     	WebGLPluginJS.RewardFunction();
-#endif
-        
+#endif  
     }
     public void ForReward()
     {

@@ -7288,6 +7288,7 @@ GameObject:
   - component: {fileID: 309210851}
   - component: {fileID: 309210850}
   - component: {fileID: 309210849}
+  - component: {fileID: 309210852}
   m_Layer: 5
   m_Name: Reward_Perk_1_Button
   m_TagString: Untagged
@@ -7359,6 +7360,30 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1517995301}
+        m_TargetAssemblyTypeName: ADReward, Assembly-CSharp
+        m_MethodName: ShowAdRewardForPerk
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1517995301}
+        m_TargetAssemblyTypeName: ADReward, Assembly-CSharp
+        m_MethodName: OpenPerk
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Perk_1
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 309210847}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -7409,6 +7434,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 309210847}
   m_CullTransparentMesh: 1
+--- !u!114 &309210852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309210847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d3d511e7acfd3b46a43864c3c6f15f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkOpenPerk: Perk_1
 --- !u!1001 &310072487
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17467,6 +17505,7 @@ GameObject:
   - component: {fileID: 786134494}
   - component: {fileID: 786134493}
   - component: {fileID: 786134492}
+  - component: {fileID: 786134495}
   m_Layer: 5
   m_Name: Reward_Perk_5_Button
   m_TagString: Untagged
@@ -17538,6 +17577,30 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1517995301}
+        m_TargetAssemblyTypeName: ADReward, Assembly-CSharp
+        m_MethodName: ShowAdRewardForPerk
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1517995301}
+        m_TargetAssemblyTypeName: ADReward, Assembly-CSharp
+        m_MethodName: OpenPerk
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Perk_5
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 786134490}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -17588,6 +17651,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 786134490}
   m_CullTransparentMesh: 1
+--- !u!114 &786134495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786134490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d3d511e7acfd3b46a43864c3c6f15f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkOpenPerk: Perk_5
 --- !u!1 &791771764
 GameObject:
   m_ObjectHideFlags: 0
@@ -17908,6 +17984,7 @@ GameObject:
   - component: {fileID: 797096444}
   - component: {fileID: 797096443}
   - component: {fileID: 797096442}
+  - component: {fileID: 797096445}
   m_Layer: 5
   m_Name: Reward_Perk_4_Button
   m_TagString: Untagged
@@ -17979,6 +18056,30 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1517995301}
+        m_TargetAssemblyTypeName: ADReward, Assembly-CSharp
+        m_MethodName: ShowAdRewardForPerk
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1517995301}
+        m_TargetAssemblyTypeName: ADReward, Assembly-CSharp
+        m_MethodName: OpenPerk
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Perk_4
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 797096440}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -18029,6 +18130,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 797096440}
   m_CullTransparentMesh: 1
+--- !u!114 &797096445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797096440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d3d511e7acfd3b46a43864c3c6f15f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkOpenPerk: Perk_4
 --- !u!1001 &800525932
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21955,6 +22069,7 @@ GameObject:
   - component: {fileID: 971229117}
   - component: {fileID: 971229116}
   - component: {fileID: 971229115}
+  - component: {fileID: 971229118}
   m_Layer: 5
   m_Name: Reward_Perk_6_Button
   m_TagString: Untagged
@@ -22026,6 +22141,30 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1517995301}
+        m_TargetAssemblyTypeName: ADReward, Assembly-CSharp
+        m_MethodName: ShowAdRewardForPerk
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1517995301}
+        m_TargetAssemblyTypeName: ADReward, Assembly-CSharp
+        m_MethodName: OpenPerk
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Perk_6
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 971229113}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -22076,6 +22215,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 971229113}
   m_CullTransparentMesh: 1
+--- !u!114 &971229118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971229113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d3d511e7acfd3b46a43864c3c6f15f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkOpenPerk: Perk_6
 --- !u!1 &971455577
 GameObject:
   m_ObjectHideFlags: 0
@@ -33976,6 +34128,7 @@ GameObject:
   - component: {fileID: 1500666042}
   - component: {fileID: 1500666041}
   - component: {fileID: 1500666040}
+  - component: {fileID: 1500666043}
   m_Layer: 5
   m_Name: Reward_Perk_2_Button
   m_TagString: Untagged
@@ -34047,6 +34200,30 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1517995301}
+        m_TargetAssemblyTypeName: ADReward, Assembly-CSharp
+        m_MethodName: ShowAdRewardForPerk
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1517995301}
+        m_TargetAssemblyTypeName: ADReward, Assembly-CSharp
+        m_MethodName: OpenPerk
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Perk_2
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1500666038}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -34097,6 +34274,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1500666038}
   m_CullTransparentMesh: 1
+--- !u!114 &1500666043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500666038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d3d511e7acfd3b46a43864c3c6f15f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkOpenPerk: Perk_2
 --- !u!1001 &1502381489
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34350,6 +34540,8 @@ GameObject:
   - component: {fileID: 1517995299}
   - component: {fileID: 1517995298}
   - component: {fileID: 1517995300}
+  - component: {fileID: 1517995302}
+  - component: {fileID: 1517995301}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -34397,6 +34589,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundOn: {fileID: 1002466167}
   soundOff: {fileID: 1410529741}
+--- !u!114 &1517995301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517995297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 068eb312a392cf7429417260eb85e552, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1517995302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517995297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f07aaf4bb9c278498266f1bab79e7c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1523804911
 GameObject:
   m_ObjectHideFlags: 0
@@ -42051,6 +42267,7 @@ GameObject:
   - component: {fileID: 1927443512}
   - component: {fileID: 1927443511}
   - component: {fileID: 1927443510}
+  - component: {fileID: 1927443513}
   m_Layer: 5
   m_Name: Reward_Perk_3_Button
   m_TagString: Untagged
@@ -42122,6 +42339,30 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1517995301}
+        m_TargetAssemblyTypeName: ADReward, Assembly-CSharp
+        m_MethodName: ShowAdRewardForPerk
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1517995301}
+        m_TargetAssemblyTypeName: ADReward, Assembly-CSharp
+        m_MethodName: OpenPerk
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Perk_3
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1927443508}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -42172,6 +42413,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1927443508}
   m_CullTransparentMesh: 1
+--- !u!114 &1927443513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927443508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d3d511e7acfd3b46a43864c3c6f15f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkOpenPerk: Perk_3
 --- !u!1001 &1930726895
 PrefabInstance:
   m_ObjectHideFlags: 0
