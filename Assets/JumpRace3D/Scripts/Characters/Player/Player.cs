@@ -133,7 +133,7 @@ public class Player : BasicAnimation
            (currentStage != (StageNumber - 1)))
         {
             // Starting long jump popup effect
-            MainCanvasUI.Instance.StartPopup("Long Jump!", 
+            MainCanvasUI.Instance.StartPopup("длинный прыжок!", 
                 _colourLongJump1, _colourLongJump2);
         }
     }
@@ -155,13 +155,13 @@ public class Player : BasicAnimation
            (currentStage != (StageNumber - 1)))
         {
             // Starting long jump popup effect
-            MainCanvasUI.Instance.StartPopup("Long Jump!",
+            MainCanvasUI.Instance.StartPopup("длинный прыжок!",
                 _colourLongJump1, _colourLongJump2);
         }
         // Condition to show 'Good' popup
         else if (isGood) {
             // Starting 'good' popup effect
-            MainCanvasUI.Instance.StartPopup("Good",
+            MainCanvasUI.Instance.StartPopup("хорошо",
                 _colourGood1, _colourGood2);
         }
     }
