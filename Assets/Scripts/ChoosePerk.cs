@@ -8,6 +8,7 @@ public class ChoosePerk : MonoBehaviour
     private void Start()
     {
         if (!PlayerPrefs.HasKey("SelectedPerk")) PlayerPrefs.SetInt("SelectedPerk", 0);
+        perks[PlayerPrefs.GetInt("SelectedPerk")].SetActive(true);
     }
     public void ChoosePerkForGame(int numberPerk)
     {
